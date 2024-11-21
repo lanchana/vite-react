@@ -25,7 +25,7 @@
   iframe.style.width = '100%';
   iframe.style.zIndex = '2147483647';
 
-  var origin = 'https://youLocalApp';
+  var origin = 'https://yourLocalIPAddress/invoices';
   var onModalWillEnterMethod = function() {};
   var onModalWillLeaveMethod = function() {};
 

@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const fetchId = async () => {
-    const {data} = await axios.post('https://yourLoalIPAddress/invoices', {currency: 'USD',
+    const {data} = await axios.post('https://yourLocalIPAddress/invoices', {currency: 'USD',
       price: 1,
       token: 'TokenAbc'})
 
